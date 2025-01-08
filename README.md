@@ -1,5 +1,5 @@
 # RAG-PDF QA Method
-This repository implements the RAG method to perform question answering on PDF documents. The application relies on HuggingFace embeddings in addition to the Groq API for efficient and accurate information retrieval. Session management ensures embeddings are computed once per document upload to optimize performance by avoiding redundant computations.
+This repository implements the RAG method to perform question answering on PDF documents. The application relies on HuggingFace embeddings in addition to the Groq API for efficient and accurate information retrieval. Session management ensures embeddings are computed once per document upload to optimize performance by avoiding redundant computations. In this illustration `Llama3-8b-8192` has been used
 
 
 
