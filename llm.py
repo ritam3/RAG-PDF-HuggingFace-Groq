@@ -6,7 +6,7 @@ from langchain.chains import create_retrieval_chain
 prompt=ChatPromptTemplate.from_template(
     """
     Answer the questions based on the provided context only.
-    Please provide the most accurate respone based on the question
+    Please provide the most accurate response based on the question
     <context>
     {context}
     <context>
